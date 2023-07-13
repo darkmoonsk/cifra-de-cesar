@@ -1,0 +1,80 @@
+:root {
+    --font-size: 1.4rem;
+    --font-color: white;
+    --border-radius: 5px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0f2027; 
+    background: -webkit-linear-gradient(
+        to bottom,
+        #2c5364,
+        #203a43,
+        #0f2027
+    ); 
+    background: linear-gradient(
+        to bottom,
+        #2c5364,
+        #203a43,
+        #0f2027
+    ); 
+    font-family: "Montserrat", sans-serif;
+    color: var(--font-color);
+}
+
+.highlight {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 180px;
+    border-radius: 50%;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size);
+    color: var(--font-color);
+    margin-bottom: 10px;
+}
+
+.input {
+    outline: none;
+    padding: 5px 10px;
+    margin: 0 20px;
+    font-size: var(--font-size);
+    color: var(--font-color);
+    border-radius: var(--border-radius);
+    border: solid 1px #0009;
+    background-color: #0005;
+}
+
+.button {
+    background-color: rgb(91, 89, 89);
+    margin-top: 20px;
+    padding: 10px 35px;
+    border-radius: 200px;
+    border: none;
+    color: var(--font-color);
+    font-size: var(--font-size);
+}
+
+.hidden {
+    display: none;
+}
+
+#response {
+    font-weight: 700;
+    font-size: var(--font-size);
+    padding: 15px 30px;
+    border: 1px solid #0009;
+    background-color: #0005;
+    border-radius: var(--border-radius);
+}
